@@ -26,11 +26,21 @@ class WebViewFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
+
+
         binding.web.apply {
-            loadUrl("https://github.com/ismoil201")
-            webViewClient = WebViewClient()
+            loadUrl("https://comic.naver.com/webtoon?tab=mon")
+            webViewClient = WebtoonWebViewClient(binding.progressBar)
             settings.javaScriptEnabled = true
         }
+    }
+
+    fun canGoBack(): Boolean{
+        return binding.web.canGoBack()
+    }
+
+    fun goBack(){
+        return binding.web.goBack()
     }
 
 }

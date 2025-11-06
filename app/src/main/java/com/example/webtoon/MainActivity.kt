@@ -1,6 +1,7 @@
 package com.example.webtoon
 
 import android.os.Bundle
+import androidx.activity.addCallback
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,6 +17,21 @@ class MainActivity : AppCompatActivity() {
 
 
 
+        onBackPressedDispatcher.addCallback(this){
+           val currentFragment  =  supportFragmentManager.fragments.firstOrNull()
+
+
+            if (currentFragment is WebViewFragment) {
+                if (currentFragment.canGoBack()) {
+                    currentFragment.goBack()
+                } else {
+                    onBackPressedDispatcher.onBackPressed()
+                }
+            } else {
+                onBackPressedDispatcher.onBackPressed()
+            }
+
+        }
         binding.button1.setOnClickListener {
             supportFragmentManager.beginTransaction().apply {
                 replace(R.id.container, WebViewFragment())
@@ -31,5 +47,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+
     }
+
 }
