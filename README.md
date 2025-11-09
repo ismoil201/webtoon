@@ -7,11 +7,19 @@ Each tab remembers your **last visited page**, and offers seamless navigation be
 
 ## 🎥 Preview & Screenshots
 
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/dfbba6ce-39aa-47b9-bb49-43f0326a266a"
-         width="30%" autoplay loop muted></video>
-  <img src="./screen1.png" width="30%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <video src="https://github.com/user-attachments/assets/dfbba6ce-39aa-47b9-bb49-43f0326a266a"
+             width="150" autoplay loop muted></video>
+      <br/><b>🎬 Demo Video</b>
+    </td>
+    <td align="center">
+      <img src="./screen1.png" width="150"/>
+      <br/><b>📱 App Screenshot</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
