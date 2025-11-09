@@ -8,10 +8,10 @@ Each tab remembers your **last visited page**, and offers seamless navigation be
 ## 🎥 Preview & Screenshots
 
 <p align="center">
-  <video src="./demo.mp4" width="25%" autoplay loop muted></video>
-  <img src="./screen1.png" width="25%" />
+  <video src="https://github.com/ismoil201/webtoon/issues/1#issue-3604639740"
+         width="40%" autoplay loop muted></video>
+  <img src="./screen1.png" width="40%" />
 </p>
-
 
 ---
 
