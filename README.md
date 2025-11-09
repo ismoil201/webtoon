@@ -8,9 +8,9 @@ Each tab remembers your **last visited page**, and offers seamless navigation be
 ## 🎥 Preview & Screenshots
 
 <p align="center">
-  <video src="https://github.com/ismoil201/webtoon/issues/1#issue-3604639740"
-         width="40%" autoplay loop muted></video>
-  <img src="./screen1.png" width="40%" />
+  <video src="https://github.com/user-attachments/assets/dfbba6ce-39aa-47b9-bb49-43f0326a266a"
+         width="30%" autoplay loop muted></video>
+  <img src="./screen1.png" width="30%" />
 </p>
 
 ---
@@ -36,5 +36,10 @@ Each tab remembers your **last visited page**, and offers seamless navigation be
 | **ViewPager2 + FragmentStateAdapter** | Manages tab views |
 | **ProgressBar & Toast** | UI feedback & user interaction |
 
+---
 
+## 🚀 How to Run
 
+1. Clone the project:
+   ```bash
+   git clone https://github.com/ismoil201/webtoon.git
