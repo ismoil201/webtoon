@@ -11,12 +11,12 @@ Each tab remembers your **last visited page**, and offers seamless navigation be
   <tr>
     <td align="center">
       <video src="https://github.com/user-attachments/assets/dfbba6ce-39aa-47b9-bb49-43f0326a266a"
-             width="150" autoplay loop muted></video>
-      <br/><b>🎬 Demo Video</b>
+             height="320" autoplay loop muted style="border-radius:10px;box-shadow:0 0 10px #ccc;"></video>
+      <br/><sub>🎬 Demo Video</sub>
     </td>
     <td align="center">
-      <img src="./screen1.png" width="150"/>
-      <br/><b>📱 App Screenshot</b>
+      <img src="./screen1.png" height="320" style="border-radius:10px;box-shadow:0 0 10px #ccc;"/>
+      <br/><sub>📱 App Screenshot</sub>
     </td>
   </tr>
 </table>
