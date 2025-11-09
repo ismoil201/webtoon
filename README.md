@@ -8,8 +8,8 @@ Each tab remembers your **last visited page**, and offers seamless navigation be
 ## 🎥 Preview & Screenshots
 
 <p align="center">
-  <video src="./demo.mp4" width="45%" autoplay loop muted></video>
-  <img src="./screen1.png" width="45%" />
+  <video src="./demo.mp4" width="25%" autoplay loop muted></video>
+  <img src="./screen1.png" width="25%" />
 </p>
 
 
