@@ -14,10 +14,6 @@ Each tab remembers your **last visited page**, and offers seamless navigation be
              height="320" autoplay loop muted style="border-radius:10px;box-shadow:0 0 10px #ccc;"></video>
       <br/><sub>🎬 Demo Video</sub>
     </td>
-    <td align="center">
-      <img src="./screen1.png" height="320" style="border-radius:10px;box-shadow:0 0 10px #ccc;"/>
-      <br/><sub>📱 App Screenshot</sub>
-    </td>
   </tr>
 </table>
 
